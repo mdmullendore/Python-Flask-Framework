@@ -1,0 +1,27 @@
+{% extends "template.html" %}
+{% block content %}
+	{% for message in get_flashed_messages() %}
+		<div class="flash">
+			{{ message }}
+		</div>
+	{% endfor %}
+	<nav>
+		<a href="/">Home</a>
+		<a href="/about">About</a>
+		<a href="/contact">Contact</a>
+		<a href="/login">Login</a>
+	</nav>
+	<div class="col-1">
+		<h2>Please Login</h2>
+		{% if error %}
+			<p style="display:none; color:red;">Error:</p> {{ error }}
+		{% endif %}
+		<form action="" method=post>
+			<label>Username</label>
+			<input type="text" name=username value="{{request.form.username}}">
+			<label>Password</label>
+			<input type="password" name="password" />
+			<input type=submit value=Login />
+		</form>
+	</div>
+{% endblock %}

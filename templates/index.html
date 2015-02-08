@@ -1,0 +1,19 @@
+{% extends "template.html" %}
+{% block content %}
+	{% for message in get_flashed_messages() %}
+		<div class="flash">
+			{{ message }}
+		</div>
+	{% endfor %}
+	<div class="col-1">
+		<nav>
+			<a href="/">Home</a>
+			<a href="/about">About</a>
+			<a href="/contact">Contact</a>
+			<a href="/login">Login</a>
+		</nav>
+		<h2>Welcome to my first flask build site</h2>
+		<p>This is very fun and enjoyable</p>
+	</div>
+{% endblock %}
+
