@@ -1,5 +1,4 @@
 ### LogIn / LogOut web app using flask python framework
-==========================================================
 
 #### Install Flask
 ```
