@@ -1,0 +1,23 @@
+{
+  "name": "Python-Flask-Framework",
+  "version": "1.0.0",
+  "description": "==========================================================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdmullendore/Python-Flask-Framework.git"
+  },
+  "keywords": [],
+  "author": "Mason Mullendore <masonmullendore@gmail.com> (http://masonmullendore.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdmullendore/Python-Flask-Framework/issues"
+  },
+  "homepage": "https://github.com/mdmullendore/Python-Flask-Framework#readme",
+  "dependencies": {
+    "skeleton-css": "^2.0.4"
+  }
+}

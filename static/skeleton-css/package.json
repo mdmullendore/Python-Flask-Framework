@@ -1,0 +1,44 @@
+{
+  "_from": "skeleton-css@^2.0.4",
+  "_id": "skeleton-css@2.0.4",
+  "_inBundle": false,
+  "_integrity": "sha1-1w2y8B/oIJrHny9O7oP66KQFkbg=",
+  "_location": "/skeleton-css",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "skeleton-css@^2.0.4",
+    "name": "skeleton-css",
+    "escapedName": "skeleton-css",
+    "rawSpec": "^2.0.4",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.4"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/skeleton-css/-/skeleton-css-2.0.4.tgz",
+  "_shasum": "d70db2f01fe8209ac79f2f4eee83fae8a40591b8",
+  "_spec": "skeleton-css@^2.0.4",
+  "_where": "/Users/mason/Developer/Python-Flask-Framework",
+  "author": {
+    "name": "Patrick Grimard",
+    "email": "pgrimard@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/pgrimard/Skeleton/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "npm installer for Skeleton with normalize.css",
+  "homepage": "https://github.com/pgrimard/Skeleton",
+  "license": "MIT",
+  "name": "skeleton-css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgrimard/Skeleton.git"
+  },
+  "version": "2.0.4"
+}
